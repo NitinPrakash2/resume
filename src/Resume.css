@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #e8e8e8;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.resume {
+  width: 860px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 32px 48px;
+  color: #111;
+  font-size: 12px;
+  line-height: 1.4;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.13);
+}
+
+/* ── Header ── */
+.heading { text-align: center; margin-bottom: 10px; }
+
+.heading h1 {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', Georgia, serif;
+  color: #1a1a2e;
+  margin-bottom: 4px;
+}
+
+.tagline {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  color: #777;
+  margin-bottom: 7px;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+  font-size: 11.5px;
+  color: #333;
+}
+
+.contact-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.contact-icon {
+  display: inline-flex;
+  align-items: center;
+  font-size: 11px;
+  color: #444;
+}
+
+.contact a {
+  color: #1a1a2e;
+  text-decoration: none;
+  border-bottom: 1px solid #aaa;
+}
+.contact a:hover { color: #0055cc; border-color: #0055cc; }
+
+.heading-divider {
+  width: 60px;
+  height: 3px;
+  background: #1a1a2e;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.sep { margin: 0 6px; color: #bbb; }
+
+/* ── Section ── */
+.section { margin-bottom: 8px; }
+
+.section-title {
+  font-size: 11.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  color: #1a1a2e;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 3px;
+}
+
+.section-icon { font-size: 11.5px; color: #1a1a2e; }
+
+.section-line {
+  border: none;
+  border-top: 1.5px solid #d8d8d8;
+  margin-bottom: 5px;
+}
+
+/* ── Summary ── */
+.summary {
+  font-size: 12px;
+  color: #222;
+  line-height: 1.5;
+}
+
+/* ── Skills ── */
+.skills-grid { display: flex; flex-direction: column; gap: 2px; }
+
+.skill-row {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  font-size: 12px;
+}
+
+.skill-icon { font-size: 11px; color: #555; flex-shrink: 0; }
+.skill-label { font-weight: 700; white-space: nowrap; color: #111; }
+.skill-value { color: #333; }
+
+/* ── Entry ── */
+.entry { margin-bottom: 6px; }
+
+.entry-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.entry-main {
+  font-weight: 700;
+  font-size: 12.5px;
+  color: #1a1a2e;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.entry-sub {
+  font-style: italic;
+  font-size: 12px;
+  color: #444;
+}
+
+.entry-date {
+  font-size: 11.5px;
+  color: #666;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* ── Project ── */
+.proj-link {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  color: #444;
+  text-decoration: none;
+  border: none !important;
+  margin-left: 4px;
+  transition: color 0.2s;
+}
+.proj-link:hover { color: #0055cc; }
+
+.proj-stack {
+  font-size: 11.5px;
+  color: #555;
+  font-style: italic;
+  margin: 2px 0 3px;
+}
+
+/* ── Lists ── */
+ul { padding-left: 14px; margin-top: 2px; }
+
+li {
+  font-size: 12px;
+  margin-bottom: 1.5px;
+  color: #222;
+  line-height: 1.4;
+}
+
+li::marker { color: #1a1a2e; font-size: 10px; }
+
+b { color: #0d0d1a; }
+
+/* ── Download Button ── */
+.download-btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 28px;
+  background: #1a1a2e;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.download-btn:hover { background: #2e2e50; }
+
+/* ── Print / PDF ── */
+@media print {
+  @page {
+    size: A4;
+    margin: 6mm 10mm;
+  }
+
+  body { background: #fff; }
+
+  .download-btn { display: none; }
+
+  .resume {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    font-size: 11.5px;
+    line-height: 1.45;
+  }
+
+  .section { margin-bottom: 9px; }
+  .entry { margin-bottom: 7px; }
+  .section-line { margin-bottom: 5px; }
+  .skills-grid { gap: 2px; }
+  li { margin-bottom: 2px; line-height: 1.4; }
+  .summary { line-height: 1.5; }
+  .heading { margin-bottom: 10px; }
+}
