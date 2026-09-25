@@ -18,15 +18,15 @@ const data = {
     { icon: <FaLinkedin />,     label: "Nitin Prakash",             href: "https://www.linkedin.com/in/nitin-prakash-3b8a01373/" },
   ],
 
-  summary: <span>Results-driven <b>Full Stack Web Developer</b> with experience in <b>MERN stack</b>, <b>Vue.js</b>, and <b>FastAPI</b>. Proven track record of building production-ready applications with <b>REST APIs</b>, <b>JWT authentication</b>, and <b>AI integration</b>. <b>Winner in multiple hackathons</b> including <b>GeeksforGeeks HackPrep 2026 Runner-Up</b>. Adept at working in <b>agile, remote environments</b> with strong problem-solving skills.</span>,
+  summary: <span>Results-driven <b>Full Stack Web Developer</b> with experience in <b>MERN stack</b>, <b>Vue.js</b>, and <b>FastAPI</b>. Proven track record of building production-ready applications with <b>REST APIs</b>, <b>JWT authentication</b>, and <b>AI integration</b>. <b>1st Position Winner</b> in <b>Internal SIH Hackathon 2026</b> and <b>GeeksforGeeks HackPrep 2026 Runner-Up</b>. Adept at working in <b>agile, remote environments</b> with strong problem-solving skills.</span>,
 
   skills: [
     { icon: <FaCode />,     label: "Languages",        value: "JavaScript, Python, C, C++, HTML5, CSS3" },
     { icon: <FaCode />,     label: "Frontend",         value: "React.js, Vue.js, Tailwind CSS, Responsive Design" },
-    { icon: <FaServer />,   label: "Backend",          value: "Node.js, Express.js, FastAPI, WebSocket (Socket.io)" },
+    { icon: <FaServer />,   label: "Backend",          value: "Node.js, Express.js, FastAPI, WebSocket (Socket.io), REST APIs" },
     { icon: <FaDatabase />, label: "Databases",        value: "MongoDB, MySQL, PostgreSQL" },
-    { icon: <FaTools />,    label: "Tools",            value: "Git, GitHub, Vercel, Render, Postman, Notion" },
-    { icon: <FaBrain />,    label: "State Management", value: "Redux Toolkit" },
+    { icon: <FaTools />,    label: "Tools & Cloud",    value: "Git, GitHub, Vercel, Render, Postman, Notion" },
+    { icon: <FaBrain />,    label: "Core Competencies", value: "Generative AI (Gemini), Web Security, JWT RBAC, Redux Toolkit" },
   ],
 
   experience: [
@@ -47,17 +47,14 @@ const data = {
 
   projects: [
     {
-      name: "NeuroDesk – AI-Powered Productivity Management System",
-      link: "https://neuro-desk2.vercel.app/",
-      stack: "React.js, Node.js, Express.js, Neon Postgres, WebSocket, JWT, Tailwind",
+      name: "AI-SAKSHAM – AI-Assisted Security Assessment Platform",
+      link: "https://ai-saksham-mocha.vercel.app/",
+      stack: "React, Node.js, Express.js, MongoDB, Socket.IO, Gemini AI, Tailwind CSS",
       points: [
-        <span>Built <b>full-stack productivity app</b> with real-time data sync using <b>WebSocket</b></span>,
-        <span>Implemented <b>JWT authentication</b> and secure user management</span>,
-        <span>Developed <b>task management</b> with priority filtering and status tracking</span>,
-        <span>Created note-taking, goal tracking, and <b>secure memory vault</b> modules</span>,
-        <span>Integrated <b>AI-powered productivity suggestions</b> using OpenRouter, Groq, Mistral</span>,
-        <span>Designed responsive UI with <b>reusable React components</b> and Context API</span>,
-        <span>Used <b>PostgreSQL (Neon)</b> database with secure environment variable management</span>,
+        <span>Built <b>full-stack MERN security platform</b> automating end-to-end assessment workflows: Target → Attack Surface Discovery → Scanning → Evidence → AI Analysis → CVSS/Risk → Remediation → PDF Report</span>,
+        <span>Developed <b>custom scanner engine</b> detecting 10+ vulnerability classes (Broken Auth, XSS, SQLi, IDOR, headers, CORS, secrets) with CVSS v3.1 scoring and 0–100 Security Health Score</span>,
+        <span>Integrated <b>Google Gemini AI</b> for false-positive filtering, plain-English impact explanation, fix prioritization, and remediation steps; added context-aware AI chatbot assistant</span>,
+        <span>Engineered <b>real-time assessment pipeline</b> with Socket.IO live progress (8 stages), JWT RBAC auth, bulk API tester with latency analytics, and PDFKit report generation</span>,
       ],
     },
     {
@@ -87,9 +84,9 @@ const data = {
   ],
 
   achievements: [
-    <span><b>Runner-up</b> in multiple hackathons for developing innovative and problem-solving based projects</span>,
+    <span>Secured <b>1st position</b> in <b>Internal SIH Hackathon 2026</b></span>,
     <span>Secured <b>2nd position</b> in a hackathon organized by <b>GeeksforGeeks</b></span>,
-    <span>Consistently participated in <b>technical and problem-solving competitions</b> to enhance practical knowledge</span>,
+    <span><b>Runner-up</b> in multiple hackathons for developing innovative and problem-solving based projects</span>,
   ],
 }
 
