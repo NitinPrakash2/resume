@@ -20,7 +20,7 @@ const data = {
     { icon: <FaLinkedin />,     label: "Himanshu Jha",               href: "https://www.linkedin.com/in/himanshujha25" },
   ],
 
-  summary: <span>Full Stack Developer with <b>1+ years of experience</b> specializing in <b>MERN stack</b>, <b>Vue.js</b>, and <b>FastAPI</b>. <b>Winner in multiple hackathons</b> including <b>GeeksforGeeks HackPrep 2026 Runner-Up</b>. Proven track record of building scalable <b>real estate</b> and <b>AI-driven</b> web applications with clean code and measurable business value.</span>,
+  summary: <span>Full Stack Developer specializing in <b>MERN stack</b>, <b>Vue.js</b>, and <b>FastAPI</b>. Currently building scalable HRMS & job management systems at <b>AurInHubb Technologies</b>. Proven track record of architecting production-ready web applications, automated security platforms, and AI integrations. <b>1st Position Winner</b> in <b>Internal SIH Hackathon 2026</b> and <b>GeeksforGeeks HackPrep 2026 Runner-Up</b>.</span>,
 
   skills: [
     { icon: <FaCode />,      label: "Languages",       value: "JavaScript, TypeScript, Python, C++" },
@@ -28,20 +28,30 @@ const data = {
     { icon: <FaServer />,    label: "Backend",         value: "Node.js, Express.js, FastAPI, RESTful APIs, WebSocket (Socket.io)" },
     { icon: <FaDatabase />,  label: "Databases",       value: "MongoDB, PostgreSQL, MySQL, Firebase, pgAdmin" },
     { icon: <FaTools />,     label: "Tools & Cloud",   value: "Git, GitHub, Docker, Postman, Bruno, Mockoon, Vercel, Render" },
-    { icon: <FaShieldAlt />, label: "Authentication",  value: "Descope, Firebase Auth, JWT, OAuth2.0" },
+    { icon: <FaShieldAlt />, label: "Authentication & Security", value: "JWT, OAuth2.0, RBAC, Descope, Firebase Auth, OWASP" },
   ],
 
   experience: [
     {
+      company: "AurInHubb Technologies",
+      duration: "Jun 2026 – Present",
+      role: "MERN Stack Developer",
+      location: "Remote",
+      points: [
+        <span>Architected and engineered <b>TopMatch</b>, an enterprise full-stack <b>HRMS and Job Management Platform</b> using <b>MERN stack</b></span>,
+        <span>Built modular RESTful microservices for <b>applicant tracking (ATS)</b>, resume parsing, job distribution, and candidate interview workflows</span>,
+        <span>Implemented real-time status updates via <b>Socket.IO</b> and designed intuitive recruiter dashboards with <b>React & Tailwind CSS</b></span>,
+      ],
+    },
+    {
       company: "E Sutra Technologies",
-      duration: "Jan 2026 – Present",
+      duration: "Jan 2026 – Jun 2026",
       role: "Full Stack Developer",
       location: "Remote",
       points: [
         <span>Engineered <b>Hirebrid LMS</b> with MERN stack + PostgreSQL, handling <b>1k+ active users</b> across institutions</span>,
         <span>Extended <b>Descope authentication</b> using Next.js and NocoDB, architecting data migration pipelines for 1k+ legacy users with <b>zero downtime</b></span>,
         <span>Reduced auth latency by <b>25%</b> by optimizing session caching and token validation logic</span>,
-        <span>Integrated <b>OpenAPI-documented backend</b> with automated Swagger UI, improving API adoption across frontend teams</span>,
       ],
     },
     {
@@ -52,36 +62,22 @@ const data = {
       points: [
         <span>Created enterprise <b>Vue 3 + TypeScript</b> components, achieving <b>40% faster load times</b> through lazy loading and code splitting</span>,
         <span>Formulated modular <b>FastAPI routes</b> with auto-generated Swagger docs; improved API response time by <b>35%</b> via query optimization</span>,
-        <span>Reusable UI library deployed across <b>3 production environments</b>, cutting development time by 20% for new features</span>,
+        <span>Architected scalable backend services using <b>FastAPI & Pydantic</b> with async database queries and automated schema validation</span>,
       ],
     },
   ],
 
   projects: [
     {
-      name: "Zipacres – Real Estate Marketplace",
-      link: "https://zipacres.com/",
-      stack: "MERN Stack, Firebase Auth, PostgreSQL, REST APIs",
-      date: "Jul 2025",
+      name: "AI-SAKSHAM – AI-Assisted Security Assessment Platform",
+      link: "https://ai-saksham-mocha.vercel.app/",
+      stack: "React 19, Node.js, Express, MongoDB, Socket.IO, Gemini AI, Tailwind CSS",
+      date: "2026",
       points: [
-        <span>Deployed a production <b>full-stack MERN application</b> for a real estate platform serving over <b>500+ active concurrent users</b></span>,
-        <span>Designed a scalable database infrastructure optimized with connection pooling to handle peaks of <b>1,000+ requests/sec</b></span>,
-        <span>Architected security protocols integrating <b>Firebase Authentication</b> with role-based access controls for <b>3 unique user tiers</b></span>,
-        <span>Implemented <b>real-time property listing updates</b> using WebSocket, reducing stale data issues by <b>70%</b></span>,
-
-      ],
-    },
-    {
-      name: "Triply AI – Travel Planner",
-      link: "https://triplyv2.vercel.app/",
-      stack: "MERN Stack, MongoDB Aggregation, RESTful APIs",
-      date: "Apr 2025",
-      points: [
-        <span>Launched a <b>full-stack AI travel planning platform</b> generating personalized itineraries based on budget, preferences, and trip duration</span>,
-        <span>Designed optimized RESTful APIs and <b>MongoDB aggregation pipelines</b> for dynamic trip filtering and recommendation generation</span>,
-        <span>Boosted complex query execution performance by <b>~50%</b> through aggregation optimization and indexed database operations</span>,
-        <span>Integrated <b>Google Maps API</b> for interactive route visualization and location-based attraction recommendations</span>,
-
+        <span>Built <b>full-stack MERN security platform</b> automating end-to-end assessment workflows: Target → Attack Surface Discovery → Scanning → Evidence → AI Analysis → CVSS/Risk → Remediation → PDF Report</span>,
+        <span>Developed <b>custom scanner engine</b> detecting 10+ vulnerability classes (Broken Auth, XSS, SQLi, IDOR, headers, CORS, secrets) with CVSS v3.1 scoring and 0–100 Security Health Score</span>,
+        <span>Integrated <b>Google Gemini AI</b> for false-positive filtering, plain-English impact explanation, fix prioritization, and remediation steps; added context-aware AI chatbot assistant</span>,
+        <span>Engineered <b>real-time assessment pipeline</b> with Socket.IO live progress (8 stages), JWT RBAC auth, bulk API tester with latency analytics, and PDFKit report generation</span>,
       ],
     },
   ],
@@ -92,19 +88,15 @@ const data = {
       duration: "Expected Graduation: 2027",
       degree: "Bachelor of Computer Applications (BCA)",
       location: "CGPA: 7.10 / 10.0",
-      points: [
-        <span><b>Coursework:</b> Data Structures, Algorithms, Web Development, Database Management, Operating Systems</span>,
-        <span><b>Activities:</b> Technical Club Member, Competitive Programming, Hackathon Participant</span>,
-      ],
     },
   ],
 
   achievements: [
-    <span><b>Winner</b> in multiple hackathons — <b>GeeksforGeeks HackPrep 2026 Runner-Up</b></span>,
-    <span>Built and deployed <b>2 production-grade applications</b> with 500+ active users serving real-world clients</span>,
-    <span>Consistently contributed to <b>open-source projects</b> and technical problem-solving competitions</span>,
+    <span><b>1st Position Winner</b> — <b>Internal SIH Hackathon 2026</b></span>,
+    <span><b>Runner-Up</b> — <b>GeeksforGeeks HackPrep 2026</b></span>,
+    <span>Built and deployed <b>production-grade applications</b> serving real-world users and enterprise workflows</span>,
+    <span><b>Winner</b> in <b>Tech Quiz (2026)</b> at <b>IMS Unison University</b> Dehradun</span>,
     <span>Solved <b>200+ DSA problems</b> on LeetCode and GeeksforGeeks; strong foundation in algorithms and data structures</span>,
-    <span>Recognized for <b>fastest feature delivery</b> at E Sutra Technologies within first month of joining</span>,
   ],
 
 
