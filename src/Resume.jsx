@@ -78,12 +78,12 @@ const data = {
       points: [
         <span>Engineered the <b>Operator Management System (OMS)</b> for Caterpillar's <b>VisionLink Productivity</b> platform, tracking equipment assignments, fuel usage, and operator behavior in real-time</span>,
         <span>Developed intuitive operator profiling and <b>Agentic AI-driven coaching modules</b> to analyze machine handling habits, identify anomaly patterns, and drive jobsite <b>safety and accountability</b></span>,
-        <span>Built responsive shift logging and activity tracking interfaces for <b>asset telematics operations</b>, facilitating seamless equipment handover and operational compliance</span>,
         <span>Architected fine-grained reactive state management using <b>Angular Signals (signal, computed, effect)</b> and <b>RxJS</b>, delivering sub-second updates for operator scoring, machine telemetry, and KPI reporting</span>,
       ],
     },
     {
       name: "CNOPS (BSNL Mobile) – Telecommunication Web Platform",
+      pageBreakBefore: true,
       link: null,
       stack: "Angular, TypeScript, JavaScript, HTML5/CSS3, REST APIs, CI/CD",
       date: "Dec 2022 – Sep 2024",
@@ -213,7 +213,7 @@ export default function Resume() {
         {/* Projects */}
         <Section title="PROJECTS" icon={<BsKanban />}>
           {data.projects.map((proj) => (
-            <div key={proj.name} className="entry">
+            <div key={proj.name} className={`entry ${proj.pageBreakBefore ? 'print-page-break' : ''}`}>
               <div className="entry-row">
                 <span className="entry-main">
                   {proj.name}
