@@ -10,98 +10,122 @@ import { MdWork, MdSchool, MdPerson } from 'react-icons/md'
 import { BsKanban } from 'react-icons/bs'
 
 const data = {
-  name: "Himanshu Jha",
-  tagline: "Full Stack Developer",
+  name: "Priyanshu Sony",
+  tagline: "Developer",
   contact: [
-    { icon: <FaMapMarkerAlt />, label: "Delhi, India",               href: null },
-    { icon: <FaPhone />,        label: "+91-9821305674",             href: "tel:+919821305674" },
-    { icon: <FaEnvelope />,     label: "jhahimanshu930@gmail.com",   href: "mailto:jhahimanshu930@gmail.com" },
-    { icon: <FaGithub />,       label: "Himanshu Jha",               href: "https://github.com/Himanshujha25" },
-    { icon: <FaLinkedin />,     label: "Himanshu Jha",               href: "https://www.linkedin.com/in/himanshujha25" },
+    { icon: <FaMapMarkerAlt />, label: "Noida, India", href: null },
+    { icon: <FaPhone />, label: "+91-8294101360", href: "tel:+918294101360" },
+    { icon: <FaEnvelope />, label: "priyanshu.sony22@gmail.com", href: "mailto:priyanshu.sony22@gmail.com" },
+    { icon: <FaLinkedin />, label: "linkedin.com/in/priyanshusony22", href: "https://www.linkedin.com/in/priyanshusony22" },
   ],
 
-  summary: <span>Full Stack Developer specializing in <b>MERN stack</b>, <b>Vue.js</b>, and <b>FastAPI</b>. Currently building scalable HRMS & job management systems at <b>AurInHubb Technologies</b>. Proven track record of architecting production-ready web applications, automated security platforms, and AI integrations. <b>1st Position Winner</b> in <b>Internal SIH Hackathon 2026</b> and <b>GeeksforGeeks HackPrep 2026 Runner-Up</b>.</span>,
+  summary: <span>Results-driven <b>Developer</b> with <b>5.4 years</b> of experience in designing, developing, and scaling enterprise web applications using <b>Angular (10–19)</b>, <b>TypeScript</b>, and <b>Agentic AI development</b>. Currently driving microfrontends, UI modernization, and AI-assisted enterprise workflows for <b>Caterpillar</b>, following impactful tenure at <b>TCS</b>. Strong expertise in building high-performance frontend architectures, reactive state management, and delivering scalable digital solutions.</span>,
 
   skills: [
-    { icon: <FaCode />,      label: "Languages",       value: "JavaScript, TypeScript, Python, C++" },
-    { icon: <FaCode />,      label: "Frontend",        value: "React.js, Next.js, Vue.js, Tailwind CSS, shadcn/ui, Responsive Design" },
-    { icon: <FaServer />,    label: "Backend",         value: "Node.js, Express.js, FastAPI, RESTful APIs, WebSocket (Socket.io)" },
-    { icon: <FaDatabase />,  label: "Databases",       value: "MongoDB, PostgreSQL, MySQL, Firebase, pgAdmin" },
-    { icon: <FaTools />,     label: "Tools & Cloud",   value: "Git, GitHub, Docker, Postman, Bruno, Mockoon, Vercel, Render" },
-    { icon: <FaShieldAlt />, label: "Authentication & Security", value: "JWT, OAuth2.0, RBAC, Descope, Firebase Auth, OWASP" },
+    { icon: <FaCode />, label: "Languages", value: "JavaScript (ES6+), TypeScript, HTML5, CSS3" },
+    { icon: <FaCode />, label: "Frontend", value: "Angular (10–19), Angular Signals, RxJS, Microfrontends, React.js, PrimeNG, Bootstrap, Responsive Design" },
+    { icon: <FaBrain />, label: "AI & Architecture", value: "Agentic AI Development, Component-Based Architecture, Lazy Loading, Multitenancy, RBAC" },
+    { icon: <FaDatabase />, label: "Databases & APIs", value: "RESTful APIs, MongoDB, MySQL" },
+    { icon: <FaTools />, label: "Cloud & DevOps", value: "Google Cloud Platform (GCP), Azure DevOps (ADO), CI/CD Pipelines, Git, GitHub, Nginx, Vercel" },
+    { icon: <FaShieldAlt />, label: "Testing & Tools", value: "Jest, Jasmine/Karma, Bruno, Postman, JIRA, Jile, Agile/Scrum" },
   ],
 
   experience: [
     {
-      company: "AurInHubb Technologies",
-      duration: "Jun 2026 – Present",
-      role: "MERN Stack Developer",
-      location: "Remote",
+      company: "Deloitte Touche Tohmatsu India LLP (DTTL)",
+      duration: "Oct 2024 – Present",
+      role: "Angular Developer",
+      location: "Noida, India",
       points: [
-        <span>Architected and engineered <b>TopMatch</b>, an enterprise full-stack <b>HRMS and Job Management Platform</b> using <b>MERN stack</b></span>,
-        <span>Built modular RESTful microservices for <b>applicant tracking (ATS)</b>, resume parsing, job distribution, and candidate interview workflows</span>,
-        <span>Implemented real-time status updates via <b>Socket.IO</b> and designed intuitive recruiter dashboards with <b>React & Tailwind CSS</b></span>,
+        <span>Led <b>Angular 19</b> enterprise frontend development utilizing <b>microfrontends</b> and lazy loading architecture, reducing initial bundle load times</span>,
+        <span>Architected fine-grained reactive state management leveraging <b>Angular Signals</b> and <b>RxJS</b>, improving application rendering speed by <b>35%</b> across telemetry dashboards</span>,
+        <span>Integrated high-throughput <b>RESTful APIs</b> and authored comprehensive unit testing using <b>Jest</b> to ensure superior code quality and stability</span>,
+        <span>Actively contributed to <b>system architecture planning</b>, cross-functional agile sprints, and technical demos for key stakeholders</span>,
       ],
     },
     {
-      company: "E Sutra Technologies",
-      duration: "Jan 2026 – Jun 2026",
-      role: "Full Stack Developer",
-      location: "Remote",
+      company: "Tata Consultancy Services (TCS)",
+      duration: "May 2021 – Sep 2024",
+      role: "Front-end Developer",
+      location: "Noida, India",
       points: [
-        <span>Engineered <b>Hirebrid LMS</b> with MERN stack + PostgreSQL, handling <b>1k+ active users</b> across institutions</span>,
-        <span>Extended <b>Descope authentication</b> using Next.js and NocoDB, architecting data migration pipelines for 1k+ legacy users with <b>zero downtime</b></span>,
-        <span>Reduced auth latency by <b>25%</b> by optimizing session caching and token validation logic</span>,
-      ],
-    },
-    {
-      company: "MN Pvt. Ltd. (1MN.io)",
-      duration: "Aug 2025 – Dec 2025",
-      role: "Full Stack Developer",
-      location: "Remote",
-      points: [
-        <span>Created enterprise <b>Vue 3 + TypeScript</b> components, achieving <b>40% faster load times</b> through lazy loading and code splitting</span>,
-        <span>Formulated modular <b>FastAPI routes</b> with auto-generated Swagger docs; improved API response time by <b>35%</b> via query optimization</span>,
-        <span>Architected scalable backend services using <b>FastAPI & Pydantic</b> with async database queries and automated schema validation</span>,
+        <span>Engineered dynamic, responsive enterprise web applications using <b>Angular (10–14)</b> and <b>TypeScript</b> for telecom clients including <b>BSNL Mobile</b> and <b>KPN N.V. (Netherlands)</b></span>,
+        <span>Architected modular component hierarchies, reusable UI libraries, and optimized <b>RESTful API integrations</b> across distributed microservices</span>,
+        <span>Implemented reactive state management and performance tuning, reducing initial page load times by <b>30%</b> and enhancing overall responsiveness</span>,
+        <span>Collaborated with cross-functional global teams in Agile sprints, and was awarded <b>Employee of the Month twice</b> for delivery excellence</span>,
       ],
     },
   ],
 
   projects: [
     {
-      name: "AI-SAKSHAM – AI-Assisted Security Assessment Platform",
-      link: "https://ai-saksham-mocha.vercel.app/",
-      stack: "React 19, Node.js, Express, MongoDB, Socket.IO, Gemini AI, Tailwind CSS",
-      date: "2026",
+      name: "VisionLink (Caterpillar) – Personnel & Fleet Telematics Management",
+      link: null,
+      stack: "Angular 19, TypeScript, RxJS, Agentic AI, REST APIs, HTML5/CSS3",
+      date: "Jan 2026 – Present",
       points: [
-        <span>Built <b>full-stack MERN security platform</b> automating end-to-end assessment workflows: Target → Attack Surface Discovery → Scanning → Evidence → AI Analysis → CVSS/Risk → Remediation → PDF Report</span>,
-        <span>Developed <b>custom scanner engine</b> detecting 10+ vulnerability classes (Broken Auth, XSS, SQLi, IDOR, headers, CORS, secrets) with CVSS v3.1 scoring and 0–100 Security Health Score</span>,
-        <span>Integrated <b>Google Gemini AI</b> for false-positive filtering, plain-English impact explanation, fix prioritization, and remediation steps; added context-aware AI chatbot assistant</span>,
-        <span>Engineered <b>real-time assessment pipeline</b> with Socket.IO live progress (8 stages), JWT RBAC auth, bulk API tester with latency analytics, and PDFKit report generation</span>,
+        <span>Architected the <b>Personnel Management module</b> on Caterpillar's <b>VisionLink</b> platform, enabling centralized identity, role assignment, and tracking for both <b>machine operators and haul truck drivers</b></span>,
+        <span>Engineered responsive driver/operator management interfaces to manage equipment pairing, active shift tracking, credential verification, and safety compliance across mixed-OEM fleets</span>,
+        <span>Integrated <b>Agentic AI assistants</b> and telematics data streams to automate driver/operator dispatch recommendations, analyze shift telemetry patterns, and generate predictive coaching insights</span>,
+        <span>Utilized <b>Angular 19, TypeScript, and RxJS</b> to build real-time personnel dispatch dashboards with instant search, filtering, and role-based access control (RBAC), delivering sub-second state synchronization</span>,
+      ],
+    },
+    {
+      name: "VLP (Caterpillar) – Machinery Monitoring Platform",
+      link: null,
+      stack: "Angular 17 (Signals), TypeScript, RxJS, Agentic AI, REST APIs",
+      date: "Oct 2024 – Dec 2025",
+      points: [
+        <span>Engineered the <b>Operator Management System (OMS)</b> for Caterpillar's <b>VisionLink Productivity</b> platform, tracking equipment assignments, fuel usage, and operator behavior in real-time</span>,
+        <span>Developed intuitive operator profiling and <b>Agentic AI-driven coaching modules</b> to analyze machine handling habits, identify anomaly patterns, and drive jobsite <b>safety and accountability</b></span>,
+        <span>Built responsive shift logging and activity tracking interfaces for <b>asset telematics operations</b>, facilitating seamless equipment handover and operational compliance</span>,
+        <span>Architected fine-grained reactive state management using <b>Angular Signals (signal, computed, effect)</b> and <b>RxJS</b>, delivering sub-second updates for operator scoring, machine telemetry, and KPI reporting</span>,
+      ],
+    },
+    {
+      name: "CNOPS (BSNL Mobile) – Telecommunication Web Platform",
+      link: null,
+      stack: "Angular, TypeScript, JavaScript, HTML5/CSS3, REST APIs, CI/CD",
+      date: "Dec 2022 – Sep 2024",
+      points: [
+        <span>Built dynamic, adaptable telecom web applications and led the conversion of complex design wireframes into fully responsive, user-friendly interfaces using <b>Angular</b> and <b>TypeScript</b></span>,
+        <span>Engineered high-performance UI components and optimized web application architecture, achieving notable improvements in <b>loading times</b> and overall runtime responsiveness</span>,
+        <span>Integrated robust <b>RESTful APIs</b> to facilitate seamless, secure communication between front-end interfaces and back-end telecommunication microservices</span>,
+        <span>Proficiently utilized <b>Git version control</b> for effective cross-team collaboration, streamlined code versioning, and branch management</span>,
+        <span>Embraced modern Agile paradigms including continuous integration, test-driven development (TDD), and <b>CI/CD pipelines</b> to accelerate deployment processes</span>,
+      ],
+    },
+    {
+      name: "CNOPS (KPN N.V.) – Cognitive Network Operations",
+      link: null,
+      stack: "Angular, TypeScript, HTML5/CSS3, Heuristic Analytics, REST APIs",
+      date: "Jul 2021 – Nov 2022",
+      points: [
+        <span>Engineered front-end interfaces for <b>KPN Netherlands' CNOPS platform</b>, leveraging AI/ML efficiency to deliver customer-centric network experience analytics in near real-time through NOCs</span>,
+        <span>Architected complex monitoring dashboards delivering a <b>single view of network</b>, automated fault ticketing, heuristic data analysis, and predictive performance metrics</span>,
+        <span>Developed and maintained multiple high-traffic client portals using <b>Angular, TypeScript, HTML5, and CSS3</b>, ensuring optimal responsiveness across diverse devices</span>,
+        <span>Implemented <b>multitenancy architecture</b> and exhaustive component libraries, accelerating feature delivery and enabling stakeholders to make reliable, data-driven decisions</span>,
       ],
     },
   ],
 
   education: [
     {
-      school: "Institute of Management Studies (IMS), Noida",
-      duration: "Expected Graduation: 2027",
-      degree: "Bachelor of Computer Applications (BCA)",
-      location: "CGPA: 7.10 / 10.0",
+      school: "Galgotias University, Greater Noida (Uttar Pradesh)",
+      duration: "2017 – 2021",
+      degree: "B.Tech – Computer Science & Engineering",
+      location: "CGPA: 8.26",
     },
   ],
 
   achievements: [
-    <span><b>1st Position Winner</b> — <b>Internal SIH Hackathon 2026</b></span>,
-    <span><b>Runner-Up</b> — <b>GeeksforGeeks HackPrep 2026</b></span>,
-    <span>Built and deployed <b>production-grade applications</b> serving real-world users and enterprise workflows</span>,
-    <span><b>Winner</b> in <b>Tech Quiz (2026)</b> at <b>IMS Unison University</b> Dehradun</span>,
-    <span>Solved <b>200+ DSA problems</b> on LeetCode and GeeksforGeeks; strong foundation in algorithms and data structures</span>,
+    <span>Received <b>Client Appreciation</b> at <b>Deloitte</b> from Caterpillar leadership for exceptional delivery, proactive ownership, and high-quality frontend execution on the VisionLink platform</span>,
+    <span>Acquired <b>Associate Cloud Engineer (GCP)</b> certification from Google</span>,
+    <span>Awarded <b>Employee of the Month twice</b> at TCS for outstanding technical delivery, dedication, and problem-solving excellence</span>,
+    <span>Participated in multiple hackathons conducted by TCS's Fresco Play; strong command over modern web architecture and computer science fundamentals</span>,
   ],
 
-
-
-  portfolio: "https://himanshu-portfolio-v2.vercel.app/",
+  portfolio: "https://www.linkedin.com/in/priyanshusony22",
 }
 
 function Section({ title, icon, children }) {
@@ -142,7 +166,7 @@ export default function Resume() {
                 <span className="sep">|</span>
                 <span className="qr-inline">
                   <QRCodeSVG value={data.portfolio} size={52} fgColor="#1a1a2e" />
-                  <span className="qr-label">Portfolio</span>
+                  <span className="qr-label">LinkedIn</span>
                 </span>
               </span>
             </div>
