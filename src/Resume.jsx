@@ -10,8 +10,8 @@ import { MdWork, MdSchool, MdPerson } from 'react-icons/md'
 import { BsKanban } from 'react-icons/bs'
 
 const data = {
-  name: "Priyanshu Sony",
-  tagline: "Developer",
+  name: "Priyanshu Raj Sony",
+  tagline: "Senior Angular Developer",
   contact: [
     { icon: <FaMapMarkerAlt />, label: "Noida, India", href: null },
     { icon: <FaPhone />, label: "+91-8294101360", href: "tel:+918294101360" },
