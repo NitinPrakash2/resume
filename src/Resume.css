@@ -211,7 +211,7 @@ b { color: #0d0d1a; }
 @media print {
   @page {
     size: A4;
-    margin: 7mm 8mm;
+    margin: 5.5mm 8mm;
   }
 
   body { background: #fff; }
@@ -223,30 +223,30 @@ b { color: #0d0d1a; }
     margin: 0;
     padding: 0;
     box-shadow: none;
-    font-size: 11.5px;
-    line-height: 1.45;
+    font-size: 11.2px;
+    line-height: 1.41;
   }
 
-  .heading { margin-bottom: 20px; }
-  .heading h1 { font-size: 26.5px; margin-bottom: 3px; }
-  .tagline { font-size: 11.4px; margin-bottom: 6px; }
-  .contact { font-size: 10.6px; gap: 4px; }
+  .heading { margin-bottom: 16px; }
+  .heading h1 { font-size: 26px; margin-bottom: 2.5px; }
+  .tagline { font-size: 11.2px; margin-bottom: 5px; }
+  .contact { font-size: 10.4px; gap: 4px; }
 
-  .section { margin-bottom: 12px; }
-  .section-title { font-size: 11.6px; margin-bottom: 2.5px; }
-  .section-line { margin-bottom: 6px; }
+  .section { margin-bottom: 10px; }
+  .section-title { font-size: 11.4px; margin-bottom: 2px; }
+  .section-line { margin-bottom: 5px; }
 
-  .entry { margin-bottom: 8.5px; }
-  .entry-main { font-size: 12px; }
-  .entry-sub { font-size: 11.4px; }
-  .entry-date { font-size: 10.4px; }
+  .entry { margin-bottom: 7px; }
+  .entry-main { font-size: 11.8px; }
+  .entry-sub { font-size: 11.2px; }
+  .entry-date { font-size: 10.2px; }
 
-  .skills-grid { gap: 3.2px; }
-  .skill-row { font-size: 11px; }
+  .skills-grid { gap: 2.6px; }
+  .skill-row { font-size: 10.8px; }
 
-  .proj-stack { font-size: 10.4px; margin: 1px 0 2.5px; }
+  .proj-stack { font-size: 10.2px; margin: 1px 0 2px; }
 
   ul { padding-left: 14px; margin-top: 1.5px; }
-  li { margin-bottom: 3.4px; line-height: 1.44; font-size: 11px; }
-  .summary { line-height: 1.48; font-size: 11px; }
+  li { margin-bottom: 2.5px; line-height: 1.4; font-size: 10.8px; }
+  .summary { line-height: 1.43; font-size: 10.8px; }
 }
