@@ -211,7 +211,7 @@ b { color: #0d0d1a; }
 @media print {
   @page {
     size: A4;
-    margin: 6mm 10mm;
+    margin: 7mm 8mm;
   }
 
   body { background: #fff; }
@@ -227,11 +227,26 @@ b { color: #0d0d1a; }
     line-height: 1.45;
   }
 
-  .section { margin-bottom: 9px; }
-  .entry { margin-bottom: 7px; }
-  .section-line { margin-bottom: 5px; }
-  .skills-grid { gap: 2px; }
-  li { margin-bottom: 2px; line-height: 1.4; }
-  .summary { line-height: 1.5; }
-  .heading { margin-bottom: 10px; }
+  .heading { margin-bottom: 20px; }
+  .heading h1 { font-size: 26.5px; margin-bottom: 3px; }
+  .tagline { font-size: 11.4px; margin-bottom: 6px; }
+  .contact { font-size: 10.6px; gap: 4px; }
+
+  .section { margin-bottom: 12px; }
+  .section-title { font-size: 11.6px; margin-bottom: 2.5px; }
+  .section-line { margin-bottom: 6px; }
+
+  .entry { margin-bottom: 8.5px; }
+  .entry-main { font-size: 12px; }
+  .entry-sub { font-size: 11.4px; }
+  .entry-date { font-size: 10.4px; }
+
+  .skills-grid { gap: 3.2px; }
+  .skill-row { font-size: 11px; }
+
+  .proj-stack { font-size: 10.4px; margin: 1px 0 2.5px; }
+
+  ul { padding-left: 14px; margin-top: 1.5px; }
+  li { margin-bottom: 3.4px; line-height: 1.44; font-size: 11px; }
+  .summary { line-height: 1.48; font-size: 11px; }
 }
