@@ -18,7 +18,7 @@ const data = {
     { icon: <FaLinkedin />,     label: "Nitin Prakash",             href: "https://www.linkedin.com/in/nitin-prakash-3b8a01373/" },
   ],
 
-  summary: <span>Results-driven <b>Full Stack Developer</b> with a strong core in the <b>MERN stack</b>, alongside production experience in <b>TypeScript</b>, <b>Next.js</b>, and <b>Sanity.io Headless CMS</b>. Proven track record of building scalable web applications with <b>REST APIs</b>, <b>JWT authentication</b>, and enterprise platforms. <b>1st Position Winner</b> in <b>Internal SIH Hackathon 2026</b> and <b>GeeksforGeeks Runner-Up</b>.</span>,
+  summary: <span>Results-driven <b>Full Stack Developer</b> with a strong core in the <b>MERN stack</b>, alongside production experience in <b>TypeScript</b>, <b>Next.js</b>, and <b>Sanity.io Headless CMS</b>. Proven track record of architecting scalable web applications with <b>REST APIs</b>, <b>Cloud Firestore</b>, and <b>JWT authentication</b>, integrating <b>Generative AI</b> workflows for practical impact. <b>1st Position Winner</b> in <b>Internal SIH Hackathon 2026</b> and <b>GeeksforGeeks Runner-Up</b> with an unwavering focus on clean architecture, security, and high performance.</span>,
 
   skills: [
     { icon: <FaCode />,     label: "Languages",        value: "JavaScript (ES6+), TypeScript, Python, C, C++, HTML5, CSS3" },
